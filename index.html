@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./reset.css">
+  <link rel="stylesheet" href="./style.css">
+  <link rel="shortcut icon"  href="./image/shop-svgrepo-com.svg"/>
+  <title>Store</title>
+</head>
+<body>
+  
+  <header>
+    <nav class="header-navigation">
+      <div class="section-container">
+        <div class="header-wrapper">
+          <a href="">
+            <img class="logo-icon" src="./img/icon-home.png" alt="logo-icon">
+          </a>
+          <div class="user-info">
+            <div class="font">User:</div>
+            <div id="user" class="font"></div>
+          </div>
+          <div class="icons-wrapper" >
+            <a id="btnLogin" href="#/login/"><img class="login-icon" src="./img/icon-user.png" alt="login-icon"></a>
+            
+            <a id="btnRegister" href="#/register/"><img class="login-icon" src="./img/icon-user-add.png" alt="registration-icon"></a>
+
+            <a id="btnOrders" href="#/orders/"><img class="login-icon" src="./img/icon-history.png" alt="orders-icon"></a>
+
+            <a  href="#/cart/">
+              <img class="cart-icon" style="width: 50px;" src="./img/shopping-cart.png">
+            </a>
+            <span id = "goodsInCart"></span>
+
+            <button id="btnLogout">Logout</button>
+          </div>
+        </div>
+      </div>
+  </nav> 
+  </header>
+  
+  <main class="main-container"> 
+    <aside class="aside">
+      <ul class="good-categories"></ul>
+    </aside>
+    
+    <section class="main-content"></section>  
+  </main>
+
+  <footer class="footer">
+    <p class="font">Company © 2024</p>
+  </footer>
+  <script src='./script.js'></script>
+</body>
+</html>
